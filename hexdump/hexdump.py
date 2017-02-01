@@ -28,6 +28,7 @@ def dump_file_hex(filename):
                                      # read(16) some number of bytes at a time as an immutable sequence of bytes
         chunk = f.read(16)
         line_number = 0
+        chunk_size = 0
         while chunk:  # empty sequences (that is, of length 0) evaluate to false
             print('{:08x}'.format(line_number*16), end='  ')  # print the line number, in hex, zero-padded to four places
 
@@ -47,7 +48,8 @@ def dump_file_hex(filename):
             chunk_size = len(chunk)
             chunk = f.read(16)
             line_number += 1
-        print('{:08x}'.format((line_number-1) * 16 + chunk_size))  # print the line number, in hex, zero-padded to four places
+        if line_number != 0:
+            print('{:08x}'.format((line_number-1) * 16 + chunk_size))  # print the line number, in hex, zero-padded to four places
 
 
 def main():
