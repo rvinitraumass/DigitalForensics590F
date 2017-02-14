@@ -8,10 +8,10 @@ def print_strings(file_obj, encoding, min_len, print_all):
     if encoding == 'l':
         byte = file_obj.read(2)
         while byte:
-            if (0x20 <= byte[0] <= 0x7e) and byte[1] == 0x00:
+            if len(byte) == 2 and (0x20 <= byte[0] <= 0x7e) and byte[1] == 0x00:
                 count += 1
                 printable.append(byte.decode(encoding='utf-16-le'))
-            elif print_all and (0xa1 <= byte[0] <= 0xfe) and (0x00 <= byte[1] <= 0xd7):
+            elif len(byte) == 2 and print_all and (0xa1 <= byte[0] <= 0xff) and (0x00 <= byte[1] <= 0xd7):
                 count += 1
                 printable.append(byte.decode(encoding='utf-16-le'))
             else:
@@ -25,10 +25,10 @@ def print_strings(file_obj, encoding, min_len, print_all):
     elif encoding == 'b':
         byte = file_obj.read(2)
         while byte:
-            if (0x20 <= byte[1] <= 0x7e) and byte[0] == 0x00:
+            if len(byte) == 2 and (0x20 <= byte[1] <= 0x7e) and byte[0] == 0x00:
                 count += 1
                 printable.append(byte.decode(encoding='utf-16-be'))
-            elif print_all and (0xa1 <= byte[1] <= 0xfe) and (0x00 <= byte[0] <= 0xd7):
+            elif len(byte) == 2 and print_all and (0xa1 <= byte[1] <= 0xff) and (0x00 <= byte[0] <= 0xd7):
                 count += 1
                 printable.append(byte.decode(encoding='utf-16-be'))
             else:
@@ -49,18 +49,19 @@ def print_strings(file_obj, encoding, min_len, print_all):
                 flag = True
             if print_all and not flag and (0xc2 <= byte[0] <= 0xdf):
                 byte+=file_obj.read(1)
-                if (0xa1 <= byte[1] <= 0xbf):
+                if len(byte) == 2 and (byte[1] & 0xc0 == 0x80):
                     count += 1
                     printable.append(byte.decode(encoding='utf-8'))
                     flag = True
             if print_all and not flag and (0xe0 <= byte[0] <= 0xed):
                 if len(byte) != 2:
                     byte += file_obj.read(1)
-                byte += file_obj.read(1)
-                if (0x80 <= byte[2] <= 0xbf):
-                    count += 1
-                    printable.append(byte.decode(encoding='utf-8'))
-                    flag = True
+                if len(byte) == 2 and (byte[1] & 0xc0 == 0x80):
+                    byte += file_obj.read(1)
+                    if len(byte) == 3 and (byte[2] & 0xc0 == 0x80):
+                        count += 1
+                        printable.append(byte.decode(encoding='utf-8'))
+                        flag = True
             if not flag:
                 if count >= min_len:
                     print(''.join(printable))
