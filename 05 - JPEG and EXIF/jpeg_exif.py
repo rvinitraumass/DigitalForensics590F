@@ -131,10 +131,7 @@ def parse_exif(f):
                                     dictionary[key] = "".join("%.2x" % x for x in value)
                             tag_offset = tag_offset + 12
                             num_entries -= 1
-                        if tag_offset < data_offset:
-                            ifd_offset = unpack(endianness + 'L', ifd_entry[tag_offset:tag_offset+4])[0]
-                            continue
-                        break
+                        ifd_offset = unpack(endianness + 'L', ifd_entry[tag_offset:tag_offset+4])[0]
             elif segment_marker == b'\xff\xda':
                 break
             entries=entries[data_offset:]
