@@ -1,0 +1,196 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  8 MAR 2017 23:49
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Assignment6.tex
+(./Assignment6.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+Package: dirtytalk 2010/11/21 A package making "quoting" easier
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@dirtytalk@qdepth=\count87
+)
+(./Assignment6.aux)
+\openout1 = `Assignment6.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 12.
+
+Overfull \hbox (43.81267pt too wide) in paragraph at lines 13--13
+\OT1/cmr/bx/n/14.4 http://caselaw.findlaw.com/us-10th-circuit/1003230.html.
+ []
+
+
+Overfull \hbox (8.94293pt too wide) in paragraph at lines 13--13
+\OT1/cmr/bx/n/14.4 In that case, in-ves-ti-ga-tors were able to search Tucker's
+
+ []
+
+./Assignment6.tex:13: Argument of \@tempc has an extra }.
+<inserted text> 
+                \par 
+l.13 ...probable cause} standard. (4 points each)}
+                                                  
+? 
+Runaway argument?
+{\TE@neg }\def \@tempb {\@tempc }\ifx \@tempa \@tempb \toks@ \expandafter \ETC.
+./Assignment6.tex:13: Paragraph ended before \@tempc was complete.
+<to be read again> 
+                   \par 
+l.13 ...probable cause} standard. (4 points each)}
+                                                  
+? 
+
+Overfull \hbox (24.92624pt too wide) in paragraph at lines 16--16
+\OT1/cmr/bx/n/14.4 be-tween ``rea-son-able sus-pi-cion'' and ``prob-a-ble cause
+''.
+ []
+
+./Assignment6.tex:16: Argument of \@tempc has an extra }.
+<inserted text> 
+                \par 
+l.16 ...that court make between the two concepts?}
+                                                  
+? 
+Runaway argument?
+{\TE@neg }\def \@tempb {\@tempc }\ifx \@tempa \@tempb \toks@ \expandafter \ETC.
+./Assignment6.tex:16: Paragraph ended before \@tempc was complete.
+<to be read again> 
+                   \par 
+l.16 ...that court make between the two concepts?}
+                                                  
+? 
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
+Overfull \hbox (9.84789pt too wide) in paragraph at lines 22--22
+[]\OT1/cmr/bx/n/14.4 According to the Tucker de-ci-sion, what is the ``plain-
+ []
+
+./Assignment6.tex:22: Argument of \@tempc has an extra }.
+<inserted text> 
+                \par 
+l.22 ...c conditions must be met for it to apply?}
+                                                  
+? 
+Runaway argument?
+{\TE@neg }\def \@tempb {\@tempc }\ifx \@tempa \@tempb \toks@ \expandafter \ETC.
+./Assignment6.tex:22: Paragraph ended before \@tempc was complete.
+<to be read again> 
+                   \par 
+l.22 ...c conditions must be met for it to apply?}
+                                                  
+? 
+[3]
+Overfull \hbox (7.50792pt too wide) in paragraph at lines 34--34
+[]\OT1/cmr/bx/n/14.4 (10 points) Given the op-tions dis-cussed in the Howard
+ []
+
+./Assignment6.tex:34: Argument of \@tempc has an extra }.
+<inserted text> 
+                \par 
+l.34 ...at's a heavy burden for making a mistake.}
+                                                  
+? 
+Runaway argument?
+{\TE@neg }\def \@tempb {\@tempc }\ifx \@tempa \@tempb \toks@ \expandafter \ETC.
+./Assignment6.tex:34: Paragraph ended before \@tempc was complete.
+<to be read again> 
+                   \par 
+l.34 ...at's a heavy burden for making a mistake.}
+                                                  
+? 
+[4]
+Overfull \hbox (1.6063pt too wide) in paragraph at lines 36--36
+\OT1/cmr/bx/n/14.4 eight ques-tions that courts should ad-dress when eval-
+ []
+
+[5] [6] (./Assignment6.aux) ) 
+Here is how much of TeX's memory you used:
+ 765 strings out of 493089
+ 11136 string characters out of 6134842
+ 66718 words of memory out of 5000000
+ 4296 multiletter control sequences out of 15000+600000
+ 6063 words of font info for 22 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,6n,21p,1154b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb>
+Output written on Assignment6.pdf (6 pages, 59611 bytes).
+PDF statistics:
+ 35 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
