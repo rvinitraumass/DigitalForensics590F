@@ -4,6 +4,10 @@ def as_le_unsigned(b):
     table = {1: 'B', 2: 'H', 4: 'L', 8: 'Q'}
     return struct.unpack('<' + table[len(b)], b)[0]
 
+
+def get_cluster_to_sector(cluster, cluster_size):
+    return ((cluster - 2) * cluster_size)
+
 def fsstat_fat16(fat16_file, sector_size=512, offset=0):
     result = ['FILE SYSTEM INFORMATION',
               '--------------------------------------------',
@@ -30,9 +34,10 @@ def fsstat_fat16(fat16_file, sector_size=512, offset=0):
     for f in range(number_of_fats):
         result.append('* FAT '+str(f)+': ' + str(fat_start) +' - '+ str(fat_start+fat_size-1))
         fat_start = (f+1)*fat_size+1
-    data_area_start = number_of_fats * fat_size + 1
+    fat_start = sectors_before_start + 1
+    data_area_start = sectors_before_start + reserved_area_size + number_of_fats * fat_size
     result.append('* Data Area: ' + str(data_area_start) +' - '+ str(sector_count))
-    root_area_end = data_area_start + as_le_unsigned(boot_sector[17:19])*32//sector_size-1
+    root_area_end = data_area_start + (as_le_unsigned(boot_sector[17:19])*32)//sector_size-1
     result.append('** Root Directory: ' + str(data_area_start) + ' - ' + str(root_area_end))
     cluster_size = as_le_unsigned(boot_sector[13:14])
     num_clusters = (sector_count - root_area_end) // cluster_size
@@ -49,12 +54,38 @@ def fsstat_fat16(fat16_file, sector_size=512, offset=0):
     result.append('')
     result.append('FAT CONTENTS (in sectors)')
     result.append('--------------------------------------------')
-
+    fat16_file.seek(fat_start*sector_size)
+    fat = fat16_file.read(fat_size*sector_size)
+    cluster_start = root_area_end + 1
+    file_start = cluster_start
+    flag = False
+    fat = fat[4:]
+    for off in range(0,len(fat), 2):
+        cluster_number = off
+        cluster_offset = as_le_unsigned(fat[off: off+2])
+        if cluster_offset < 0xffff and cluster_offset > 0:
+            if not flag:
+                file_start = cluster_start + cluster_number
+                flag = True
+            else:
+                cluster_sector = get_cluster_to_sector(cluster_offset, cluster_size)
+                if cluster_sector - cluster_number != 2:
+                    file_end =  cluster_start + cluster_number + 1
+                    result.append(str(file_start) + '-' + str(file_end) + ' (' + str(file_end - file_start + 1) + ') -> ' + str(cluster_sector))
+                    file_start =  cluster_start + cluster_sector
+        elif cluster_offset == 0xffff:
+            file_end = cluster_start + cluster_number + 1
+            if not flag:
+                file_start = cluster_start + cluster_number
+            result.append(str(file_start) + '-'+ str(file_end) + ' ('+str(file_end-file_start+1)+') -> EOF')
+            flag = False
+        else:
+            flag = False
 
     # then do a few things, .append()ing to result as needed
 
     return result
 
-# if __name__ == '__main__':
-#     with open('adams.dd', 'rb') as f:
-#         print("\n".join(fsstat_fat16(f)))
+if __name__ == '__main__':
+    with open('adams.dd', 'rb') as f:
+        print("\n".join(fsstat_fat16(f)))
