@@ -1,0 +1,37 @@
+FILE SYSTEM INFORMATION
+--------------------------------------------
+File System Type: FAT16
+
+OEM Name: BSD  4.4
+Volume ID: 0x36c013ef
+Volume Label (Boot Sector): ADAMS      
+Volume Label (Root Directory):
+File System Type Label: FAT16   
+
+Sectors before file system: 0
+
+File System Layout (in sectors)
+Total Range: 0 - 10238
+* Reserved: 0 - 0
+** Boot Sector: 0
+* FAT 0: 1 - 20
+* FAT 1: 21 - 40
+* Data Area: 41 - 10238
+** Root Directory: 41 - 72
+** Cluster Area: 73 - 10238
+
+METADATA INFORMATION
+--------------------------------------------
+Range: 2 - 163174
+Root Directory: 2
+
+CONTENT INFORMATION
+--------------------------------------------
+Sector Size: 512
+Cluster Size: 1024
+Total Cluster Range: 2 - 5084
+
+FAT CONTENTS (in sectors)
+--------------------------------------------
+75-76 (2) -> EOF
+3743-8792 (5050) -> EOF

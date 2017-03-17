@@ -22,7 +22,7 @@ def fsstat_fat16(fat16_file, sector_size=512, offset=0):
     sectors_before_start = as_le_unsigned(boot_sector[28:32])
     result.append('Sectors before file system: '+ str(sectors_before_start))
     result.append('')
-    result.append('File System Layout( in sectors)')
+    result.append('File System Layout (in sectors)')
     sector_count = max(as_le_unsigned(boot_sector[19:21]), as_le_unsigned(boot_sector[32:36]))-1
     result.append('Total Range: '+ str(sectors_before_start)+ ' - ' + str(sector_count))
     reserved_area_size = as_le_unsigned(boot_sector[14:16])
@@ -37,7 +37,8 @@ def fsstat_fat16(fat16_file, sector_size=512, offset=0):
     fat_start = sectors_before_start + 1
     data_area_start = sectors_before_start + reserved_area_size + number_of_fats * fat_size
     result.append('* Data Area: ' + str(data_area_start) +' - '+ str(sector_count))
-    root_area_end = data_area_start + (as_le_unsigned(boot_sector[17:19])*32)//sector_size-1
+    bytes_per_sector = as_le_unsigned(boot_sector[11:13])
+    root_area_end = data_area_start + (as_le_unsigned(boot_sector[17:19])*32//bytes_per_sector) - 1
     result.append('** Root Directory: ' + str(data_area_start) + ' - ' + str(root_area_end))
     cluster_size = as_le_unsigned(boot_sector[13:14])
     num_clusters = (sector_count - root_area_end) // cluster_size
@@ -71,8 +72,8 @@ def fsstat_fat16(fat16_file, sector_size=512, offset=0):
                 cluster_sector = get_cluster_to_sector(cluster_offset, cluster_size)
                 if cluster_sector - cluster_number != 2:
                     file_end =  cluster_start + cluster_number + 1
-                    result.append(str(file_start) + '-' + str(file_end) + ' (' + str(file_end - file_start + 1) + ') -> ' + str(cluster_sector))
-                    file_start =  cluster_start + cluster_sector
+                    result.append(str(file_start) + '-' + str(file_end) + ' (' + str(file_end - file_start + 1) + ') -> ' + str(cluster_start + cluster_sector))
+                    flag = False
         elif cluster_offset == 0xffff:
             file_end = cluster_start + cluster_number + 1
             if not flag:
@@ -81,11 +82,10 @@ def fsstat_fat16(fat16_file, sector_size=512, offset=0):
             flag = False
         else:
             flag = False
-
     # then do a few things, .append()ing to result as needed
 
     return result
 
 if __name__ == '__main__':
     with open('adams.dd', 'rb') as f:
-        print("\n".join(fsstat_fat16(f)))
+        print("\n".join(fsstat_fat16(f, 1024)))

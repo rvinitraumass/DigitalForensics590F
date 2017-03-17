@@ -1,0 +1,40 @@
+FILE SYSTEM INFORMATION
+--------------------------------------------
+File System Type: FAT16
+
+OEM Name: mkfs.fat
+Volume ID: 0xd28a5c9d
+Volume Label (Boot Sector): NO NAME    
+Volume Label (Root Directory):
+File System Type Label: FAT16   
+
+Sectors before file system: 0
+
+File System Layout (in sectors)
+Total Range: 0 - 10239
+* Reserved: 0 - 0
+** Boot Sector: 0
+* FAT 0: 1 - 10
+* FAT 1: 11 - 20
+* Data Area: 21 - 10239
+** Root Directory: 21 - 36
+** Cluster Area: 37 - 10238
+** Non-clustered: 10239 - 10239
+
+METADATA INFORMATION
+--------------------------------------------
+Range: 2 - 327014
+Root Directory: 2
+
+CONTENT INFORMATION
+--------------------------------------------
+Sector Size: 1024
+Cluster Size: 2048
+Total Cluster Range: 2 - 5102
+
+FAT CONTENTS (in sectors)
+--------------------------------------------
+39-3110 (3072) -> 9255
+3111-6182 (3072) -> EOF
+6183-9254 (3072) -> EOF
+9255-10238 (984) -> EOF
