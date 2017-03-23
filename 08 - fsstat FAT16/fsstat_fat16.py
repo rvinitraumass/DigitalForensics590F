@@ -13,6 +13,7 @@ def fsstat_fat16(fat16_file, sector_size=512, offset=0):
               '--------------------------------------------',
               'File System Type: FAT16',
               '']
+    fat16_file.seek(offset*sector_size)
     boot_sector = fat16_file.read(sector_size)
     result.append('OEM Name: '+ boot_sector[3:11].decode('ascii').strip())
     result.append('Volume ID: ' + hex(as_le_unsigned(boot_sector[39:43])))
@@ -24,18 +25,18 @@ def fsstat_fat16(fat16_file, sector_size=512, offset=0):
     result.append('')
     result.append('File System Layout (in sectors)')
     sector_count = max(as_le_unsigned(boot_sector[19:21]), as_le_unsigned(boot_sector[32:36]))-1
-    result.append('Total Range: '+ str(sectors_before_start)+ ' - ' + str(sector_count))
+    result.append('Total Range: '+ str(sectors_before_start - offset)+ ' - ' + str(sector_count))
     reserved_area_size = as_le_unsigned(boot_sector[14:16])
-    result.append('* Reserved: ' + str(sectors_before_start) + ' - ' + str(sectors_before_start + reserved_area_size-1))
-    result.append('** Boot Sector: ' + str(sectors_before_start))
+    result.append('* Reserved: ' + str(sectors_before_start - offset) + ' - ' + str(sectors_before_start - offset + reserved_area_size-1))
+    result.append('** Boot Sector: ' + str(sectors_before_start - offset))
     fat_size = as_le_unsigned(boot_sector[22:24])
-    fat_start = sectors_before_start + 1
+    fat_start = sectors_before_start - offset + 1
     number_of_fats = as_le_unsigned(boot_sector[16:17])
     for f in range(number_of_fats):
         result.append('* FAT '+str(f)+': ' + str(fat_start) +' - '+ str(fat_start+fat_size-1))
         fat_start = (f+1)*fat_size+1
     fat_start = sectors_before_start + 1
-    data_area_start = sectors_before_start + reserved_area_size + number_of_fats * fat_size
+    data_area_start = sectors_before_start - offset + reserved_area_size + number_of_fats * fat_size
     result.append('* Data Area: ' + str(data_area_start) +' - '+ str(sector_count))
     bytes_per_sector = as_le_unsigned(boot_sector[11:13])
     root_area_end = data_area_start + (as_le_unsigned(boot_sector[17:19])*32//bytes_per_sector) - 1

@@ -1,0 +1,43 @@
+FILE SYSTEM INFORMATION
+--------------------------------------------
+File System Type: FAT16
+
+OEM Name: BSD  4.4
+Volume ID: 0x31e31211
+Volume Label (Boot Sector): SPIFTACULAR
+File System Type Label: FAT16
+
+Sectors before file system: 2
+
+File System Layout (in sectors)
+Total Range: 0 - 19535
+* Reserved: 0 - 0
+** Boot Sector: 0
+* FAT 0: 1 - 38
+* FAT 1: 39 - 76
+* Data Area: 77 - 19535
+** Root Directory: 77 - 108
+** Cluster Area: 109 - 19534
+** Non-clustered: 19535 - 19535
+
+CONTENT INFORMATION
+--------------------------------------------
+Sector Size: 512
+Cluster Size: 1024
+Total Cluster Range: 2 - 9714
+
+FAT CONTENTS (in sectors)
+--------------------------------------------
+109-110 (2) -> EOF
+111-118 (8) -> EOF
+119-120 (2) -> EOF
+121-122 (2) -> EOF
+123-124 (2) -> EOF
+125-126 (2) -> EOF
+127-128 (2) -> EOF
+129-138 (10) -> 10139
+139-10138 (10000) -> EOF
+10139-10238 (100) -> 16839
+10239-16238 (6000) -> EOF
+16239-16838 (600) -> EOF
+16839-19534 (2696) -> EOF
