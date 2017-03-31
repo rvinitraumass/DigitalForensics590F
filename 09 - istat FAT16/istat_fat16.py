@@ -48,11 +48,14 @@ def istat_fat16(f, address, sector_size=512, offset=0):
     cluster_size = as_unsigned(boot_sector[13:14])
     f.seek(offset * sector_size + ((root_area_start*sector_size)+(address-3)*32))
     direc_entry = f.read(32)
+
     result.append('Directory Entry: '+str(address))
+
     if direc_entry[0] == 0xe5 or direc_entry[0] == 0x00:
         result.append('Not Allocated')
     else:
         result.append('Allocated')
+
     attr = direc_entry[11]
     file_attr = "File Attributes: "
     if attr & 0x0f == 0x0f:
@@ -73,8 +76,57 @@ def istat_fat16(f, address, sector_size=512, offset=0):
         if attr & 0x20:
             file_attr += ", Archive"
     result.append(file_attr)
+
     file_size = as_unsigned(direc_entry[28:32])
-    result.append('Size: ' + str(file_size))
+    f.seek(fat_start * sector_size)
+    fat = f.read(fat_size * sector_size)
+    fat = fat[4:]
+    count = 0
+    sec_count = file_size // sector_size
+    cluster_number = get_cluster_to_sector(as_unsigned(direc_entry[26:28]), cluster_size)
+    cluster_offset = as_unsigned(fat[cluster_number:cluster_number + 2])
+    cluster_line = []
+    cluster_result = []
+    flag = False
+    while cluster_number < len(fat) and sec_count > 0:
+        flag = True
+        if len(cluster_line) == 8:
+            cluster_result.append(" ".join(cluster_line))
+            cluster_line = []
+        for c in range(cluster_size):
+            cluster_line.append(str(cluster_start + cluster_number + c))
+        if cluster_offset < 0xffff and cluster_offset > 0:
+            cluster_number = get_cluster_to_sector(cluster_offset, cluster_size)
+        elif cluster_offset == 0xffff:
+            flag = True
+            break
+        else:
+            cluster_number += 2
+        cluster_offset = as_unsigned(fat[cluster_number:cluster_number + 2])
+        sec_count -= 2
+        count += 2
+    if len(cluster_line) == 8:
+        cluster_result.append(" ".join(cluster_line))
+        cluster_line = []
+
+    if file_size == 0:
+        for c in range(cluster_size):
+            cluster_line.append(str(cluster_start + cluster_number + c))
+            count+=1
+    elif not flag or direc_entry[0] == 0xe5:
+        rem_size = file_size % (sector_size * cluster_size)
+        num_zeroes = rem_size // sector_size + 1
+        for c in range(cluster_size - num_zeroes):
+            cluster_line.append(str(cluster_start + cluster_number + c))
+            count+=1
+        for c in range(num_zeroes):
+            cluster_line.append("0")
+            count+=1
+    if file_size == 0:
+        result.append('Size: ' + str(count*sector_size))
+    else:
+        result.append('Size: ' + str(file_size))
+
     file_ext = "".join(i for i in direc_entry[8:12].decode('ascii') if 48 < ord(i) < 127)
     lowercase_byte = direc_entry[12]
     if direc_entry[0] == 0xe5:
@@ -90,65 +142,19 @@ def istat_fat16(f, address, sector_size=512, offset=0):
         else:
             filename += "." + file_ext
     result.append('Name: '+filename)
+
     result.append('')
     result.append('Directory Entry Times:')
     result.append('Written:\t'+ decode_fat_day(direc_entry[24:26]) + " " + decode_fat_time(direc_entry[22:24]))
     result.append('Accessed:\t' + decode_fat_day(direc_entry[18:20]) + " " + decode_fat_time(bytes.fromhex('0000')))
     result.append('Created:\t' + decode_fat_day(direc_entry[16:18]) + " " + decode_fat_time(direc_entry[14:16], direc_entry[13]))
     result.append('')
+
     result.append('Sectors:')
-    f.seek(fat_start * sector_size)
-    fat = f.read(fat_size * sector_size)
-    # f.seek(cluster_start*sector_size)
-    # sector_count = max(as_unsigned(boot_sector[19:21]), as_unsigned(boot_sector[32:36])) - 1
-    # num_clusters = (sector_count - root_area_end) // cluster_size
-    # cluster_end = root_area_end + cluster_size * num_clusters
-    # cluster_area = f.read((cluster_end-cluster_start+1)*sector_size)
-    fat = fat[4:]
-    count = 2
-    sec_count = file_size//sector_size
-    cluster_number = get_cluster_to_sector(as_unsigned(direc_entry[26:28]),cluster_size)
-    cluster_offset= as_unsigned(fat[cluster_number:cluster_number+2])
-    cluster_line = []
-    cluster_result = []
-    flag = False
-    while cluster_number < len(fat) and sec_count > 0:
-        flag = True
-        if len(cluster_line) == 8:
-            cluster_result.append(" ".join(cluster_line))
-            cluster_line = []
-        for c in range(cluster_size):
-            cluster_line.append(str(cluster_start + cluster_number+c))
-        if cluster_offset < 0xffff and cluster_offset > 0:
-            cluster_number = get_cluster_to_sector(cluster_offset,cluster_size)
-        elif cluster_offset == 0xffff:
-            flag = True
-            break
-        else:
-            cluster_number += 2
-        cluster_offset = as_unsigned(fat[cluster_number:cluster_number + 2])
-        sec_count -= 2
-        count+=1
-    if len(cluster_line) == 8:
-        cluster_result.append(" ".join(cluster_line))
-        cluster_line = []
     for c in cluster_result:
         result.append(c)
-    if file_size == 0:
-        for c in range(cluster_size):
-            cluster_line.append(str(cluster_start + cluster_number+c))
-    elif not flag or direc_entry[0] == 0xe5:
-        rem_size = file_size % (sector_size*cluster_size)
-        num_zeroes = rem_size // sector_size + 1
-        for c in range(cluster_size-num_zeroes):
-            cluster_line.append(str(cluster_start + cluster_number+c))
-        for c in range(num_zeroes):
-            cluster_line.append("0")
-
     if len(cluster_line) > 0:
         result.append(" ".join(cluster_line))
-    if result[3].split()[1] == '0':
-        result[3] = 'Size: '+ str(count*sector_size)
     return result
 
 
