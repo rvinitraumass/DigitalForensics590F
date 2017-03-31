@@ -5,7 +5,8 @@ File System Type: FAT16
 OEM Name: BSD  4.4
 Volume ID: 0x31e31211
 Volume Label (Boot Sector): SPIFTACULAR
-File System Type Label: FAT16
+Volume Label (Root Directory):
+File System Type Label: FAT16   
 
 Sectors before file system: 2
 
@@ -19,6 +20,11 @@ Total Range: 0 - 19535
 ** Root Directory: 77 - 108
 ** Cluster Area: 109 - 19534
 ** Non-clustered: 19535 - 19535
+
+METADATA INFORMATION
+--------------------------------------------
+Range: 2 - 311350
+Root Directory: 2
 
 CONTENT INFORMATION
 --------------------------------------------
