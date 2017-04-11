@@ -1,0 +1,34 @@
+MFT Entry Header Values:
+Entry: 68        Sequence: 1
+$LogFile Sequence Number: 0
+Allocated File
+Links: 1
+
+$STANDARD_INFORMATION Attribute Values:
+Flags: Archive
+Owner ID: 0
+Created:	2017-04-07 19:04:24.868380900 (EDT)
+File Modified:	2017-04-07 19:04:24.868783500 (EDT)
+MFT Modified:	2017-04-07 19:04:24.868783500 (EDT)
+Accessed:	2017-04-07 19:04:24.868380900 (EDT)
+
+$FILE_NAME Attribute Values:
+Flags: Archive
+Name: image.jpg
+Parent MFT Entry: 66 	Sequence: 1
+Allocated Size: 49152   	Actual Size: 0
+Created:	2017-04-07 19:04:24.868380900 (EDT)
+File Modified:	2017-04-07 19:04:24.868380900 (EDT)
+MFT Modified:	2017-04-07 19:04:24.868380900 (EDT)
+Accessed:	2017-04-07 19:04:24.868380900 (EDT)
+
+Attributes: 
+Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 48
+Type: $FILE_NAME (48-3)   Name: N/A   Resident   size: 84
+Type: $DATA (128-2)   Name: N/A   Non-Resident   size: 48551  init_size: 48551
+7056 7057 7058 7059 7060 7061 7062 7063 
+7064 7065 7066 7067 7068 7069 7070 7071 
+7072 7073 7074 7075 7076 7077 7078 7079 
+7080 7081 7082 7083 7084 7085 7086 7087 
+7088 7089 7090 7091 7092 7093 7094 7095 
+7096 7097 7098 7099 7100 7101 7102 7103 

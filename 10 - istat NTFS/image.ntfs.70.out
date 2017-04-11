@@ -1,0 +1,32 @@
+MFT Entry Header Values:
+Entry: 70        Sequence: 1
+$LogFile Sequence Number: 0
+Allocated File
+Links: 1
+
+$STANDARD_INFORMATION Attribute Values:
+Flags: Archive
+Owner ID: 0
+Created:	2017-04-07 19:04:24.920034100 (EDT)
+File Modified:	2017-04-07 19:04:24.920302300 (EDT)
+MFT Modified:	2017-04-07 19:04:24.920302300 (EDT)
+Accessed:	2017-04-07 19:04:24.920034100 (EDT)
+
+$FILE_NAME Attribute Values:
+Flags: Archive
+Name: comment.png
+Parent MFT Entry: 66 	Sequence: 1
+Allocated Size: 31744   	Actual Size: 0
+Created:	2017-04-07 19:04:24.920034100 (EDT)
+File Modified:	2017-04-07 19:04:24.920034100 (EDT)
+MFT Modified:	2017-04-07 19:04:24.920034100 (EDT)
+Accessed:	2017-04-07 19:04:24.920034100 (EDT)
+
+Attributes: 
+Type: $STANDARD_INFORMATION (16-0)   Name: N/A   Resident   size: 48
+Type: $FILE_NAME (48-3)   Name: N/A   Resident   size: 88
+Type: $DATA (128-2)   Name: N/A   Non-Resident   size: 30918  init_size: 30918
+2155 2156 2157 2158 2159 2160 2161 2162 
+2163 2164 2165 2166 2167 2168 2169 2170 
+2171 2172 2173 2174 2175 2176 2177 2178 
+2179 2180 2181 2182 2183 2184 2185 
