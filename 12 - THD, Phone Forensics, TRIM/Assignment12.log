@@ -1,0 +1,1404 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  2 MAY 2017 14:47
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Assignment12.tex
+(./Assignment12.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+Package: dirtytalk 2010/11/21 A package making "quoting" easier
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@dirtytalk@qdepth=\count87
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(./Assignment12.aux)
+\openout1 = `Assignment12.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen106
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks16
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 14.
+
+./Assignment12.tex:15: Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   }
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+? s
+OK, entering \scrollmode...
+./Assignment12.tex:15: Extra \or.
+<argument> \or 
+               
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I'm ignoring this; it doesn't match any \if.
+
+./Assignment12.tex:15: Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Assignment12.tex:15: Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   2
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Assignment12.tex:15: Argument of \@tempc has an extra }.
+<inserted text> 
+                \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./Assignment12.tex:15: Paragraph ended before \@tempc was complete.
+<to be read again> 
+                   \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@Split #1.#2.#3\@nil ->\def \GPT@int 
+                                         {#1}\ifx \ltx@empty #2\ltx@empty \l...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@Split ...x@empty #2\ltx@empty \let \GPT@frac 
+                                                  \ltx@empty \else \def \GPT...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...pty \else \edef \GPT@frac 
+                                                  {\expandafter \GPT@Reverse...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ... {\expandafter }\GPT@frac 
+                                                  \@nil }\edef \GPT@frac {\e...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Argument of \GPT@Reverse has an extra }.
+<inserted text> 
+                \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./Assignment12.tex:15: Paragraph ended before \GPT@Reverse was complete.
+<to be read again> 
+                   \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...ac \@nil }\edef \GPT@frac 
+                                                  {\expandafter \GPT@ZapLead...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...ZapLeadingZeros \GPT@frac 
+                                                  \ltx@empty }\ifx \GPT@frac...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...pty \else \edef \GPT@frac 
+                                                  {\expandafter \GPT@Reverse...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ... {\expandafter }\GPT@frac 
+                                                  \@nil }\fi \fi \edef \GPT@...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Argument of \GPT@Reverse has an extra }.
+<inserted text> 
+                \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./Assignment12.tex:15: Paragraph ended before \GPT@Reverse was complete.
+<to be read again> 
+                   \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ... }\fi \fi \edef \GPT@sign 
+                                                  {\expandafter \ltx@car \GP...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...ndafter \ltx@car \GPT@int 
+                                                  \ltx@empty \@nil }\ifx \GP...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...nil }\else \def \GPT@sign 
+                                                  {}\fi \edef \GPT@int {\exp...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...sign {}\fi \edef \GPT@int 
+                                                  {\expandafter \GPT@ZapLead...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...@ZapLeadingZeros \GPT@int 
+                                                  \ltx@empty }\edef \GPT@tem...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Argument of \GPT@temp has an extra }.
+<inserted text> 
+                \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\GPT@int \GPT@frac }\ifx \GPT@temp \ltx@empty \def \Gscale@x {0}\else \ETC.
+./Assignment12.tex:15: Paragraph ended before \GPT@temp was complete.
+<to be read again> 
+                   \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Assignment12.tex:15: Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   }
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@Split #1.#2.#3\@nil ->\def \GPT@int 
+                                         {#1}\ifx \ltx@empty #2\ltx@empty \l...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@Split ...x@empty #2\ltx@empty \let \GPT@frac 
+                                                  \ltx@empty \else \def \GPT...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...pty \else \edef \GPT@frac 
+                                                  {\expandafter \GPT@Reverse...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ... {\expandafter }\GPT@frac 
+                                                  \@nil }\edef \GPT@frac {\e...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Argument of \GPT@Reverse has an extra }.
+<inserted text> 
+                \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./Assignment12.tex:15: Paragraph ended before \GPT@Reverse was complete.
+<to be read again> 
+                   \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...ac \@nil }\edef \GPT@frac 
+                                                  {\expandafter \GPT@ZapLead...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...ZapLeadingZeros \GPT@frac 
+                                                  \ltx@empty }\ifx \GPT@frac...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...pty \else \edef \GPT@frac 
+                                                  {\expandafter \GPT@Reverse...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ... {\expandafter }\GPT@frac 
+                                                  \@nil }\fi \fi \edef \GPT@...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Argument of \GPT@Reverse has an extra }.
+<inserted text> 
+                \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./Assignment12.tex:15: Paragraph ended before \GPT@Reverse was complete.
+<to be read again> 
+                   \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ... }\fi \fi \edef \GPT@sign 
+                                                  {\expandafter \ltx@car \GP...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...ndafter \ltx@car \GPT@int 
+                                                  \ltx@empty \@nil }\ifx \GP...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...nil }\else \def \GPT@sign 
+                                                  {}\fi \edef \GPT@int {\exp...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...sign {}\fi \edef \GPT@int 
+                                                  {\expandafter \GPT@ZapLead...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Undefined control sequence.
+\GPT@NormalizeNumber ...@ZapLeadingZeros \GPT@int 
+                                                  \ltx@empty }\edef \GPT@tem...
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:15: Argument of \GPT@temp has an extra }.
+<inserted text> 
+                \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\GPT@int \GPT@frac }\ifx \GPT@temp \ltx@empty \def \Gscale@x {0}\else \ETC.
+./Assignment12.tex:15: Paragraph ended before \GPT@temp was complete.
+<to be read again> 
+                   \par 
+l.15 ...s of \say{actus reus} and \say{mens rea}.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Overfull \hbox (3.2078pt too wide) in paragraph at lines 20--20
+\OT1/cmr/bx/n/14.4 data, and specif-i-cally on bulk data at the block level.''
+ []
+
+./Assignment12.tex:20: Argument of \@tempc has an extra }.
+<inserted text> 
+                \par 
+l.20 ...the block level.} What are these reasons?}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\TE@neg }\def \@tempb {\@tempc }\ifx \@tempa \@tempb \toks@ \expandafter \ETC.
+./Assignment12.tex:20: Paragraph ended before \@tempc was complete.
+<to be read again> 
+                   \par 
+l.20 ...the block level.} What are these reasons?}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./Assignment12.tex:24: Text line contains an invalid character.
+l.24 ^^A
+        \item There may be insufficient time to read the entire file system,...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./Assignment12.tex:25: Text line contains an invalid character.
+l.25 ^^A
+        \item File contents may be encrypted.
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+./Assignment12.tex:26: Text line contains an invalid character.
+l.26 ^^A
+        \item The tree structure of file systems makes it hard to paralleliz...
+A funny symbol that I can't read has just been input.
+Continue, and I'll forget that it ever happened.
+
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+./Assignment12.tex:28: Argument of \@tempc has an extra }.
+<inserted text> 
+                \par 
+l.28 ...l files are located at 4096 byte offsets.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\TE@neg }\def \@tempb {\@tempc }\ifx \@tempa \@tempb \toks@ \expandafter \ETC.
+./Assignment12.tex:28: Paragraph ended before \@tempc was complete.
+<to be read again> 
+                   \par 
+l.28 ...l files are located at 4096 byte offsets.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./Assignment12.tex:29: LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \begin{equation*}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Assignment12.tex:30: Missing $ inserted.
+<inserted text> 
+                $
+l.30 ...rm{Total size of disk in bytes} = 160 * 2^
+                                                  {40}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 30.
+
+./Assignment12.tex:31: LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \end{equation*}
+                    \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Assignment12.tex:31: Missing $ inserted.
+<inserted text> 
+                $
+l.31 \end{equation*}
+                    \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./Assignment12.tex:32: LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \begin{equation*}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Assignment12.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...e of interesting file in bytes} = 512 * 2^
+                                                  {30}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./Assignment12.tex:34: LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \end{equation*}
+                    \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Assignment12.tex:34: Missing $ inserted.
+<inserted text> 
+                $
+l.34 \end{equation*}
+                    \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./Assignment12.tex:35: LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \begin{equation*}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Assignment12.tex:36: Missing $ inserted.
+<inserted text> 
+                $
+l.36 \textrm{Size of offset in bytes} = 4096 = 2^
+                                                 {12}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./Assignment12.tex:37: LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \end{equation*}
+                    \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Assignment12.tex:37: Missing $ inserted.
+<inserted text> 
+                $
+l.37 \end{equation*}
+                    \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./Assignment12.tex:39: LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \begin{equation*}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Assignment12.tex:40: LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \begin{split}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Assignment12.tex:41: Missing $ inserted.
+<inserted text> 
+                $
+l.41 ...^{40} - 512 * 2^{30}}{2^{12}}\) = 160 * 2^
+                                                  {28} - 512 * 2^{18}} \\= 2...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Assignment12.tex:41: Extra }, or forgotten $.
+l.41 ...}{2^{12}}\) = 160 * 2^{28} - 512 * 2^{18}}
+                                                   \\= 2^{18}(160 * 2^{10} -...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./Assignment12.tex:42: LaTeX Error: \begin{document} ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \end{split}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Assignment12.tex:42: Missing $ inserted.
+<inserted text> 
+                $
+l.42 \end{split}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./Assignment12.tex:43: LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \end{equation*}
+                    \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Assignment12.tex:46: LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \begin{equation*}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Assignment12.tex:48: LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \end{equation*}
+                    \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Assignment12.tex:50: LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \begin{equation*}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Assignment12.tex:52: LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 \end{equation*}
+                    \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Assignment12.tex:54: LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \begin{equation*}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Assignment12.tex:56: LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \end{equation*}
+                    \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Assignment12.tex:58: LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \begin{equation*}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./Assignment12.tex:59: LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \begin{split}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Assignment12.tex:60: Undefined control sequence.
+l.60 \implies
+              T* \( \displaystyle \frac{1}{n}\) \ge 0.0001\\ \implies T \ge ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:60: Missing $ inserted.
+<inserted text> 
+                $
+l.60 ...lies T* \( \displaystyle \frac{1}{n}\) \ge
+                                                   0.0001\\ \implies T \ge \...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Assignment12.tex:60: Undefined control sequence.
+<recently read> \implies 
+                         
+l.60 ...ystyle \frac{1}{n}\) \ge 0.0001\\ \implies
+                                                   T \ge \( \displaystyle \f...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./Assignment12.tex:60: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...rac{1}{n}\) \ge 0.0001\\ \implies T \ge \(
+                                                   \displaystyle \frac{1}{n}...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Assignment12.tex:61: Undefined control sequence.
+<recently read> \implies 
+                         
+l.61 \implies
+              T \ge \( \displaystyle \frac{1}{163328 * 2^{18}}\) * 0.0001\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:61: Missing $ inserted.
+<inserted text> 
+                $
+l.61 \implies T \ge
+                    \( \displaystyle \frac{1}{163328 * 2^{18}}\) * 0.0001\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./Assignment12.tex:61: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \implies T \ge \(
+                       \displaystyle \frac{1}{163328 * 2^{18}}\) * 0.0001\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Assignment12.tex:62: Undefined control sequence.
+<recently read> \implies 
+                         
+l.62 \implies
+              T \ge 163228 * 26.2144\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Assignment12.tex:62: Missing $ inserted.
+<inserted text> 
+                $
+l.62 \implies T \ge
+                    163228 * 26.2144\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Assignment12.tex:63: Undefined control sequence.
+<recently read> \implies 
+                         
+l.63 \implies
+              T \ge 4278924.08
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./Assignment12.tex:64: LaTeX Error: \begin{document} ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 \end{split}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./Assignment12.tex:64: Missing $ inserted.
+<inserted text> 
+                $
+l.64 \end{split}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./Assignment12.tex:65: LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \end{equation*}
+                    \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2] [3] <bhf.png, id=19, 483.8075pt x 572.1375pt>
+File: bhf.png Graphic file (type png)
+ <use bhf.png>
+Package pdftex.def Info: bhf.png used on input line 72.
+(pdftex.def)             Requested size: 195.0pt x 230.60568pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5 <./bhf.png>] [6] (./Assignment12.aux) ) 
+Here is how much of TeX's memory you used:
+ 1676 strings out of 493089
+ 24204 string characters out of 6134842
+ 88482 words of memory out of 5000000
+ 5160 multiletter control sequences out of 15000+600000
+ 8501 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,6n,23p,1119b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Assignment12.pdf (6 pages, 118522 bytes).
+PDF statistics:
+ 54 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
